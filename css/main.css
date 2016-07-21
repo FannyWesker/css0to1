@@ -1,0 +1,35 @@
+body {
+	background-image: url(/img/background.jpg);
+	background-attachment: fixed;
+	background-size: cover;
+	background-position: center;
+}
+
+.container {
+	width: 960px;
+	margin: 0 auto;
+	padding: 100px;
+}
+
+header.main-header {
+	background-image: url(/img/banner.jpg);
+	text-align: center;
+}
+
+h1 {
+	padding-bottom: 20px;
+	font-weight: 300;
+	font-size: 50px;
+	color: #ffffff;
+	font-family: 'Open Sans','helvetica',arial,sana-serif;
+	text-shadow: 0 1px rgba(0,0,0,0.3);
+}
+
+.main-header__avatar{
+	border: 3px solid #ffffff;
+    border-radius: 999px;
+    margin-top: -70px;
+    margin-bottom: 10px;
+    box-shadow: 0 0px 2px 1px rgba(0,0,0,0.2);
+}
+
